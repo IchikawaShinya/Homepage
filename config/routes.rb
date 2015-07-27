@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
   
+  resources :specials
   resources :links
   resources :abouts
   resources :infomations
