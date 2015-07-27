@@ -71,3 +71,20 @@ div {
     list-style: square;
   }
 }
+
+
+.header ul {
+  font-size: 0;
+}
+.header li {
+  background-color: #FFB6C1;
+  display: inline-block;
+  font-size: 12px;
+  width: 20%;
+  text-align: center;
+}
+
+.non_underline {
+  display: block;
+  text-decoration: none;
+}
