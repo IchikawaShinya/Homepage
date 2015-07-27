@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
   
+  resources :infomations
   resources :tops
   
   root :to => 'tops#index'
