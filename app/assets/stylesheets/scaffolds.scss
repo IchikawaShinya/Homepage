@@ -68,21 +68,6 @@ div {
 
   ul li {
     font-size: 12px;
-    list-style: none;
+    list-style: square;
   }
-}
-
-
-.header ul {
-  font-size: 0;
-}
-.header li {
-  background-color: #FFB6C1;
-  display: inline-block;
-  font-size: 12px;
-  width: 20%;
-}
-
-.non_underline {
-  text-decoration: none;
 }
