@@ -77,6 +77,11 @@ div {
   text-align: center;
 }
 
+.header {
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+}
 .header h1 {
   text-align: center;
 }
@@ -95,6 +100,39 @@ div {
 .non_underline {
   display: block;
   text-decoration: none;
+}
+
+.centerContents {
+  padding-top: 125px;
+}
+
+/* 3列用 */
+.leftContents {
+    width: 75%;
+    float: left;
+}
+.leftContents .left {
+    width: 32%;
+    float: left;
+  text-align: left;
+}
+
+.leftContents .center {
+    width: 66.7%;
+    float: right;
+  text-align: left;
+}
+
+.rightContents {
+  width: 24%;
+  float: right;
+  text-align: left;
+}
+
+.footer {
+  padding: 5px;
+  clear: both;
+  text-align: center;
 }
 
 /* 丸サムネイル用 */
