@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Homepage</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  
-</head>
-<body>
-
-<div class="contents">
-	<%= render 'layouts/header' %>
-	<div class="centerContents"></div>
-		<div class="leftContents">
-			<div class="left"><%= render 'layouts/leftbar' %></div>
-			<div class="center"><%= yield %></div>
+	<head>
+	  <title>Homepage</title>
+	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  <%= csrf_meta_tags %>
+	</head>
+	<body>
+		<div class="contents">
+			<%= render 'layouts/header' %>
+			<div class="centerContents"></div>
+				<% contentsRow = 2 %>
+				<% if contentsRow == 3 %>
+					<div class="leftContents">
+						<div class="left"><%= render 'layouts/leftbar' %></div>
+						<div class="center"><%= yield %></div>
+					</div>
+					<div class="rightContents"><%= render 'layouts/rightbar' %></div>
+				<% elsif contentsRow == 2 %>
+					<div class="leftSecond"><%= render 'layouts/leftbar' %></div>
+					<div class="rightSecond"><%= yield %></div>
+				<% else %>
+					<%= yield %>
+				<% end %>
+			</div>
+			<%= render 'layouts/footer' %>
 		</div>
-		<div class="rightContents"><%= render 'layouts/rightbar' %></div>
-	</div>
-	
-	<%= render 'layouts/footer' %>
-</div>	
-
-</body>
-
-
+	</body>
 </html>

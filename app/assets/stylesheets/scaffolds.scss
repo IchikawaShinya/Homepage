@@ -80,7 +80,7 @@ div {
 .header {
   padding: 5px;
   position: fixed;
-  width: 100%;
+  width: 98%;
 }
 .header h1 {
   text-align: center;
@@ -95,16 +95,34 @@ div {
   display: inline-block;
   font-size: 12px;
   width: 20%;
+  padding: 5px 0px;
 }
 
 .non_underline {
   display: block;
   text-decoration: none;
 }
+.non_underline:link { color:#FFFFFF; text-decoration:none; }
+.non_underline:visited { color:#FFFFFF; text-decoration:none; }
+.non_underline:hover { color:#FF1493; text-decoration:none; }
 .non_underline:active { color:#FF1493; text-decoration:none; }
 
 .centerContents {
   padding-top: 125px;
+}
+
+/* 2列用 */
+.leftSecond {
+    width: 25%;
+    float: left;
+  text-align: left;
+  padding: 5px;
+}
+
+.rightSecond {
+    float: left;
+  text-align: left;
+  padding: 5px;
 }
 
 /* 3列用 */
