@@ -3963,3 +3963,1006 @@ Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 18:42:47 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-27 18:56:04 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (8.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/scaffolds.self-7403cb62a5b69a80276ace6b72537f775b95fd17afae8f1ae433acfccc7c7b8f.css?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-27 18:56:04 +0900
+
+
+Started GET "/" for ::1 at 2015-07-27 18:57:29 +0900
+Processing by TopsController#index as HTML
+  [1m[36mTop Load (0.3ms)[0m  [1mSELECT "tops".* FROM "tops"[0m
+  Rendered tops/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tops" for ::1 at 2015-07-27 19:00:05 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:00:54 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (25.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (12.7ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (23.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 271ms (Views: 238.9ms | ActiveRecord: 20.2ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/scaffolds.self-7403cb62a5b69a80276ace6b72537f775b95fd17afae8f1ae433acfccc7c7b8f.css?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:00:55 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:03:03 +0900
+Processing by TopsController#index as HTML
+  [1m[36mTop Load (0.3ms)[0m  [1mSELECT "tops".* FROM "tops"[0m
+  Rendered tops/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 134ms (Views: 132.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/scaffolds.self-113b9259b5049459fe0ff6f65b3fcc35acfafdcaed544166d731f83843d28329.css?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:03:03 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:03:25 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.4ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/scaffolds.self-113b9259b5049459fe0ff6f65b3fcc35acfafdcaed544166d731f83843d28329.css?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:03:25 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:03:53 +0900
+Processing by TopsController#index as HTML
+  [1m[36mTop Load (0.3ms)[0m  [1mSELECT "tops".* FROM "tops"[0m
+  Rendered tops/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/scaffolds.self-113b9259b5049459fe0ff6f65b3fcc35acfafdcaed544166d731f83843d28329.css?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:03:53 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:05:27 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/scaffolds.self-113b9259b5049459fe0ff6f65b3fcc35acfafdcaed544166d731f83843d28329.css?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:05:27 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:05:56 +0900
+Processing by TopsController#index as HTML
+  [1m[36mTop Load (0.3ms)[0m  [1mSELECT "tops".* FROM "tops"[0m
+  Rendered tops/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/scaffolds.self-a991be9a245e2c9c4ba3aedfe032b5d35c1066082e0b88ac06ec43f3e9373dec.css?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:05:56 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:25:52 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:25:52 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:25:52 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:25:52 +0900
+
+
+Started GET "/assets/scaffolds.self-5ff42e8d30b088b66013082e7b38323e734b5cb84451a6ecf93aaada83be1e91.css?body=1" for ::1 at 2015-07-28 11:25:52 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:25:53 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:26:08 +0900
+Processing by TopsController#index as HTML
+  [1m[36mTop Load (0.3ms)[0m  [1mSELECT "tops".* FROM "tops"[0m
+  Rendered tops/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 93.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/scaffolds.self-dff35c1d502731a01d5b0e4619dc96b1b22a2b15d8c93f61e77bdb0cd3c33c4c.css?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:08 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:26:35 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 97ms (Views: 96.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:35 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:35 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:35 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:35 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:35 +0900
+
+
+Started GET "/assets/scaffolds.self-2a4d73dbfb102c1da0cb3f27fae0cb90abb01b3a65c861a57f0b23d52f8df00d.css?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:26:36 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:26:51 +0900
+Processing by TopsController#index as HTML
+  [1m[36mTop Load (0.3ms)[0m  [1mSELECT "tops".* FROM "tops"[0m
+  Rendered tops/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/scaffolds.self-2a4d73dbfb102c1da0cb3f27fae0cb90abb01b3a65c861a57f0b23d52f8df00d.css?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:26:51 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:27:00 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/scaffolds.self-71a058990a31ba2dddce63d12e20aff557e8f1055ef10325edb4fdea71777901.css?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:27:00 +0900
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:27:12 +0900
+Processing by TopsController#index as HTML
+  [1m[36mTop Load (0.3ms)[0m  [1mSELECT "tops".* FROM "tops"[0m
+  Rendered tops/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 90ms (Views: 88.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/scaffolds.self-b9ca2e8b4cf223f68b2bb4057d39c07af5121b0d1330dc709ac4808f2556c18e.css?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:27:12 +0900
+
+
+Started GET "/infomations" for ::1 at 2015-07-28 11:29:52 +0900
+Processing by InfomationsController#index as HTML
+  [1m[35mInfomation Load (2.4ms)[0m  SELECT "infomations".* FROM "infomations"
+  Rendered infomations/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 107ms (Views: 100.3ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/abouts" for ::1 at 2015-07-28 11:29:54 +0900
+Processing by AboutsController#index as HTML
+  [1m[36mAbout Load (6.5ms)[0m  [1mSELECT "abouts".* FROM "abouts"[0m
+  Rendered abouts/index.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 80ms (Views: 68.7ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/specials" for ::1 at 2015-07-28 11:29:55 +0900
+Processing by SpecialsController#index as HTML
+  [1m[35mSpecial Load (2.9ms)[0m  SELECT "specials".* FROM "specials"
+  Rendered specials/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 76ms (Views: 69.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/links" for ::1 at 2015-07-28 11:29:57 +0900
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (2.3ms)[0m  [1mSELECT "links".* FROM "links"[0m
+  Rendered links/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 68ms (Views: 61.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:29:58 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tops" for ::1 at 2015-07-28 11:30:28 +0900
+Processing by TopsController#index as HTML
+  [1m[36mTop Load (0.3ms)[0m  [1mSELECT "tops".* FROM "tops"[0m
+  Rendered tops/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/scaffolds.self-b9ca2e8b4cf223f68b2bb4057d39c07af5121b0d1330dc709ac4808f2556c18e.css?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 11:30:29 +0900
+
+
+Started GET "/" for ::1 at 2015-07-28 11:30:30 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 44.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/infomations" for ::1 at 2015-07-28 11:30:32 +0900
+Processing by InfomationsController#index as HTML
+  [1m[36mInfomation Load (0.3ms)[0m  [1mSELECT "infomations".* FROM "infomations"[0m
+  Rendered infomations/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-28 11:30:36 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-28 13:04:16 +0900
+Processing by TopsController#index as HTML
+  [1m[36mTop Load (0.3ms)[0m  [1mSELECT "tops".* FROM "tops"[0m
+  Rendered tops/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 106ms (Views: 105.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:16 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/scaffolds.self-df5af62fd5e75dd668f72de0fd3a023b2937f1056dbae33656a510b98b389402.css?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 13:04:17 +0900
+
+
+Started GET "/" for ::1 at 2015-07-28 13:04:46 +0900
+Processing by TopsController#index as HTML
+  [1m[35mTop Load (0.3ms)[0m  SELECT "tops".* FROM "tops"
+  Rendered tops/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/links.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/infomations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/scaffolds.self-df5af62fd5e75dd668f72de0fd3a023b2937f1056dbae33656a510b98b389402.css?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/tops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/specials.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/abouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/infomations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/links.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/tops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-28 13:04:46 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-28 13:04:46 +0900

@@ -72,19 +72,34 @@ div {
   }
 }
 
+.contents {
+  width: 100%;
+  text-align: center;
+}
+
+.header h1 {
+  text-align: center;
+}
 
 .header ul {
   font-size: 0;
+  padding: 0px;
 }
 .header li {
   background-color: #FFB6C1;
   display: inline-block;
   font-size: 12px;
   width: 20%;
-  text-align: center;
 }
 
 .non_underline {
   display: block;
   text-decoration: none;
+}
+
+/* 丸サムネイル用 */
+.thumbnail img {
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
 }
