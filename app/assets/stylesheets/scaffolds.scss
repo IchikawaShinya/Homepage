@@ -102,10 +102,11 @@ div {
   display: block;
   text-decoration: none;
 }
-.non_underline:link { color:#FFFFFF; text-decoration:none; }
-.non_underline:visited { color:#FFFFFF; text-decoration:none; }
-.non_underline:hover { color:#FF1493; text-decoration:none; }
-.non_underline:active { color:#FF1493; text-decoration:none; }
+a.non_underline:hover {
+    overflow : hidden;
+    outline : none;
+    background-color: #ffffff;
+}
 
 .centerContents {
   padding-top: 125px;
