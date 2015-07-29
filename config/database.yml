@@ -22,9 +22,11 @@ default: &default
 
 development:
   <<: *default
-  database: homepage
-  username: postgres
-  password: postgres
+  database: davbnfgv8oo9k7
+  username: sxmyixpkrhdash
+  password: DBBKAO5a2HRT6YPEvgkRT6W9de
+  host: ec2-107-21-125-143.compute-1.amazonaws.com
+  sslmode: require
   
 test:
   <<: *default
