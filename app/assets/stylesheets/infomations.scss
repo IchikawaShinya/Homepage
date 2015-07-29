@@ -1,3 +1,15 @@
 // Place all the styles related to the infomations controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.infomation dt {
+    background-color: #666666;
+    color: #ffffff;
+    margin-top: 1em;
+    padding: 5px;
+    font-weight: bold;
+}
+.infomation dd {
+   margin-top: 0.5em;
+    
+}
