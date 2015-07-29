@@ -15,7 +15,6 @@ ActiveRecord::Schema.define(version: 20150727082131) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-  enable_extension "adminpack"
 
   create_table "abouts", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -23,6 +22,8 @@ ActiveRecord::Schema.define(version: 20150727082131) do
   end
 
   create_table "infomations", force: :cascade do |t|
+    t.string   "title",      null: false
+    t.string   "body",       null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -40,14 +41,6 @@ ActiveRecord::Schema.define(version: 20150727082131) do
   create_table "tops", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "weather", id: false, force: :cascade do |t|
-    t.string  "city",    limit: 80
-    t.integer "temp_lo"
-    t.integer "temp_hi"
-    t.float   "prcp"
-    t.date    "date"
   end
 
 end
