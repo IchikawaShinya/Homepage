@@ -14,3 +14,12 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(function(){
+	$(".accordion dt").click(function(){
+	    $(this).next("dd").slideToggle();
+	    $(this).next("dd").siblings("dd").slideUp();
+	    $(this).toggleClass("open");
+	    $(this).siblings("dt").removeClass("open");
+	});
+});
