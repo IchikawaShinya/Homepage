@@ -12,6 +12,16 @@
   <% end %>
 
   <div class="actions">
+  	<table class="createInfo">
+  		<tr>
+  			<th>見出し</th>
+  			<td><%= f.text_field :title, :size=>"60" %></td>
+  		</tr>
+  		<tr>
+  			<th>詳細</th>
+  			<td><%= f.text_area :body, :size=>"58x10" %></td>
+  		</tr>
+  	</table>
     <%= f.submit %>
   </div>
 <% end %>
