@@ -2,13 +2,28 @@
 
 <h1>Listing Managements</h1>
 
-<ul class="manageMenu">
-	<li><%= link_to 'New Top', new_top_path %></li>
-	<li><%= link_to 'New Infomation', new_infomation_path %></li>
-	<li><%= link_to 'New About', new_about_path %></li>
-	<li><%= link_to 'New Special', new_special_path %></li>
-	<li><%= link_to 'New Link', new_link_path %></li>
-</ul>
+<table class="manageTable">
+	<tr>
+		<td class="textLeft">
+			<ul class="manageMenu">
+				<li><%= link_to 'New Top', new_top_path %></li>
+				<li><%= link_to 'New Infomation', new_infomation_path %></li>
+				<li><%= link_to 'New About', new_about_path %></li>
+				<li><%= link_to 'New Special', new_special_path %></li>
+				<li><%= link_to 'New Link', new_link_path %></li>
+			</ul>
+		</td>
+		<td class="textLeft">
+			<ul class="manageMenu">
+				<li><%= link_to 'Edit Top', tops_path+"/edit" %></li>
+				<li><%= link_to 'Edit Infomation', infomations_path+"/edit" %></li>
+				<li><%= link_to 'Edit About', abouts_path+"/edit" %></li>
+				<li><%= link_to 'Edit Special', specials_path+"/edit" %></li>
+				<li><%= link_to 'Edit Link', links_path+"/edit" %></li>
+			</ul>
+		</td>
+	</tr>
+</table>
 
 <table>
   <thead>

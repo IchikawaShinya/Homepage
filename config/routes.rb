@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
   
+  match "/tops/edit(.:format)" => 'tops#edit', :via => [:get,:post]
+  match "/infomations/edit(.:format)" => 'infomations#edit', :via => [:get,:post]
+  match "/abouts/edit(.:format)" => 'abouts#edit', :via => [:get,:post]
+  match "/specials/edit(.:format)" => 'specials#edit', :via => [:get,:post]
+  match "/links/edit(.:format)" => 'links#edit', :via => [:get,:post]
   
   resources :managements
   resources :specials

@@ -68,7 +68,7 @@ div {
 
   ul li {
     font-size: 12px;
-    list-style: square;
+    list-style: none;
   }
 }
 
@@ -162,10 +162,18 @@ a.non_underline:hover {
   width: 40px;
 }
 
+.manageTable {
+  margin: auto;
+}
+
 .manageMenu {
     list-style: none;
 }
 
+.textLeft {
+  text-align: left;
+  margin: 0px 10px;
+}
 .textRight {
   text-align: right;
   margin: 0px 10px;

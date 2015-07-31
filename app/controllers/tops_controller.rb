@@ -1,5 +1,5 @@
 class TopsController < ApplicationController
-  before_action :set_top, only: [:show, :edit, :update, :destroy]
+  before_action :set_top, only: [:show, :update, :destroy]
 
   # GET /tops
   # GET /tops.json

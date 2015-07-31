@@ -28,7 +28,7 @@ class InfomationsController < ApplicationController
 
     respond_to do |format|
       if @infomation.save
-        format.html { redirect_to @infomation, notice: 'Infomation was successfully created.' }
+        format.html { redirect_to managements_url, notice: 'Infomation was successfully created.' }
         format.json { render :show, status: :created, location: @infomation }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class InfomationsController < ApplicationController
   def update
     respond_to do |format|
       if @infomation.update(infomation_params)
-        format.html { redirect_to @infomation, notice: 'Infomation was successfully updated.' }
+        format.html { redirect_to managements_url, notice: 'Infomation was successfully updated.' }
         format.json { render :show, status: :ok, location: @infomation }
       else
         format.html { render :edit }
@@ -70,5 +70,6 @@ class InfomationsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def infomation_params
       params[:infomation]
+      params.require(:infomation).permit(:title, :body)
     end
 end
